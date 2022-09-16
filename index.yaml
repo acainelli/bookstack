@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  bookstack:
+  - apiVersion: v2
+    appVersion: 0.29.3
+    created: "2022-09-16T09:11:02.552739188Z"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.helm.sh/stable
+      version: 4.4.x
+    description: BookStack is a simple, self-hosted, easy-to-use platform for organising and storing information.
+    digest: ccbcedba9d747017f8bdbd351d4b77cb7617bd076aa142c0b7bf8e10517e2342
+    name: bookstack
+    urls:
+    - https://github.com/acainelli/bookstack/releases/download/bookstack-1.0.0/bookstack-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-09-16T09:11:02.219804901Z"
