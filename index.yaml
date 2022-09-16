@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  bookstack:
+  - annotations:
+      artifacthub.io/images: |
+        - name: bookstack
+          image: lscr.io/linuxserver/bookstack:21.12.4
+    apiVersion: v2
+    appVersion: 21.12.4
+    created: "2022-09-16T12:39:58.209083897Z"
+    dependencies:
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.3.3
+    description: bookstack documentation platform
+    digest: 0750f75394d0e5f795e6334364658b3359ccbcf5a5e677734917fcd805f56b07
+    home: https://www.bookstackapp.com/
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/BookStack_logo.svg/225px-BookStack_logo.svg.png
+    keywords:
+    - documentation
+    kubeVersion: '>= 1.14.0-0'
+    name: bookstack
+    urls:
+    - https://github.com/acainelli/bookstack/releases/download/bookstack-0.1.5/bookstack-0.1.5.tgz
+    version: 0.1.5
+generated: "2022-09-16T12:39:57.75210633Z"
